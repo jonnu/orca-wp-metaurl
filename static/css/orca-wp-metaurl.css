@@ -45,6 +45,13 @@
     float: left;
 }
 
+.orca-meta-container.position-center .orca-wp-button {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .orca-meta-container.position-right .orca-wp-button {
     float: right;
 }

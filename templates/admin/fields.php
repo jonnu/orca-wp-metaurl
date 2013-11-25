@@ -12,6 +12,7 @@
             <select name="orca_wp_meta_position" id="orca_wp_meta_position">
                 <option value="">Default</option>
                 <option value="left"<?php echo $value_position == 'left' ? ' selected="selected"' : ''; ?>>Left</option>
+                <option value="center"<?php echo $value_position == 'center' ? ' selected="selected"' : ''; ?>>Centre</option>
                 <option value="right"<?php echo $value_position == 'right' ? ' selected="selected"' : ''; ?>>Right</option>
             </select>
         </div>

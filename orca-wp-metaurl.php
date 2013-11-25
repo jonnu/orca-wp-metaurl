@@ -110,7 +110,7 @@ class Orca_Wordpress_MetaURL extends Orca_Wordpress
         }
 
         $metaClasses  = array('orca-meta-container');
-        if (in_array($metaPosition, array('left', 'right'))) {
+        if (in_array($metaPosition, array('left', 'center', 'right'))) {
             $metaClasses[] = 'position-' . $metaPosition;
         }
 
