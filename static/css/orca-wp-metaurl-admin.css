@@ -1,0 +1,29 @@
+
+#orca_wp_meta_admin {
+    margin: 1.0em 0.25em;
+}
+
+.orca-row {
+    display: block;
+    margin-bottom: 0.75em;
+}
+
+.orca-row:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.orca-row label {
+    width: 100px;
+    margin: 0 0 0.25em 0.25em;
+    display: block;
+}
+
+.orca-row input {
+    width: 320px;
+}
+
+.orca-row select {
+    width: 200px;
+}

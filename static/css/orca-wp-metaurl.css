@@ -1,0 +1,50 @@
+
+.orca-wp-button {
+    width: 160px;
+    height: 40px;
+    line-height: 40px !important;
+
+    color: #ffffff !important;
+    font: normal bold 12px/1.4em 'Arial', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 2px 1px #689324;
+    text-transform: uppercase;
+
+    box-shadow: inset 0px 1px 0px 0px #c1ed9c;
+    -moz-box-shadow: inset 0px 1px 0px 0px #c1ed9c;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #c1ed9c;
+
+    background-color: #9dce2c;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b));
+    background: -moz-linear-gradient(center top, #9dce2c 5%, #8cb82b 100% );
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+    border: 1px solid #83c41a;
+    display: inline-block;
+}
+
+.orca-wp-button:hover {
+    text-decoration: none;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c));
+    background: -moz-linear-gradient(center top, #8cb82b 5%, #9dce2c 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
+    background-color: #8cb82b;
+}
+
+.orca-wp-button:active {
+    position: relative;
+    top: 1px;
+}
+
+.orca-meta-container.position-left .orca-wp-button {
+    float: left;
+}
+
+.orca-meta-container.position-right .orca-wp-button {
+    float: right;
+}
