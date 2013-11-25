@@ -9,7 +9,7 @@
 Plugin Name: Orca MetaURL
 Plugin URI: https://github.com/jonnu/orca-wp-metaurl
 Description: Attach a customisable URL to each post via a clickable button
-Version: 1.0.0
+Version: 1.0.1
 Author: Jonnu
 Author URI: http://jonnu.eu/
 License: GPLv2
