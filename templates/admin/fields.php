@@ -3,7 +3,7 @@
 
         <div class="orca-row">
             <label for="orca_wp_meta_url">Meta URL</label>
-            <input name="orca_wp_meta" id="orca_wp_meta_url" value="<?php echo $value; ?>" data-default-value="http://" />
+            <input name="orca_wp_meta" id="orca_wp_meta_url" value="<?php echo $value; ?>" data-default-value="Enter a valid link..." />
             <input type="hidden" name="orca_wp_meta_nonce" value="<?php echo $nonce; ?>" />
         </div>
 
